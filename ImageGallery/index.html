@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Gallery</title>
+    <title>Document</title>
 </head>
-<body>
+
+    <style>
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
     
-</body>
-</html>
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    </style>
+    </head>
+    <body>
+
+        <div class="gallery">
+          <a target="_blank" href="image/mountain.jpg">
+            <img src="image/mountain.jpg" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+        
+        <div class="gallery">
+          <a target="_blank" href="image/mountain.jpg">
+            <img src="image/mountain.jpg" alt="Forest" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+        
+        <div class="gallery">
+          <a target="_blank" href="image/blue.jpg">
+            <img src="image/blue.jpg" alt="blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+        
+        <div class="gallery">
+          <a target="_blank" href="image/blaze.jpg">
+            <img src="image/blaze.jpg" alt="Mountains" width="600" height="200">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+        
+        </body>
